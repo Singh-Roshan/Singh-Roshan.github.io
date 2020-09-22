@@ -19,7 +19,7 @@
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 20px 15px;
   color: black;
   text-decoration: none;
 }
@@ -138,7 +138,7 @@
     display: none;
   }
 }
-@media (max-width: 960px) and (min-width: 768px) {
+@media (max-width: 978px) and (min-width: 768px) {
   .header {
     font-size: 12px;
   }

@@ -20,7 +20,7 @@ const socialMediaLinks = {
   github: "https://github.com/singh-roshan",
   linkedin: "https://www.linkedin.com/in/rs03/",
   gmail: "roshan.singh@rutgers.edu",
-  facebook: "https://www.facebook.com/"
+  facebook: "https://www.facebook.com/singhroshan03"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -188,10 +188,9 @@ const workExperiences = {
       company: "Fractal",
       companylogo: require("./assets/images/Fractal.png"),
       date: "Mar 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built a generalized template for Insurance domain to do data cleaning, pre-processing, feature engineering, model building and validation reducing the project deployment time by 60%",
+        "Accomplished Random Forest and Light GBM modelling to identify customer's purchase behavior in various markets increasing the business revenue by 30%"
       ]
     },
     {
@@ -270,20 +269,46 @@ const achievementSection = {
 
   achivementsCards: [
     {
+      title: "Harvard- Data Science: Machine Learning",
+      image: require("./assets/images/harvard.png"),
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/180V9zh19V12J5nyY-b2b8lWrvDQ6NZ2P/view" }
+      ]
+    },
+    {
+      title: "Google Analytics- Advanced",
+      image: require("./assets/images/google.jpg"),
+      footerLink: [
+        { name: "Certification", url: "https://analytics.google.com/analytics/academy/certificate/chCEWBqDT96Q5J168pfZUg" }
+      ]
+    },
+    {
+      title: "Artificial Intelligence Foundations: Machine Learning",
+      image: require("./assets/images/linkedin.png"),
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/file/d/1zONATDbZ0Z2Sc9C2YCPI188U8DSfM83h/view" }
+      ]
+    },
+    {
       title: "Best Project in KJSIEIT-INTECH-2016",
       subtitle: "Project: Diagnosis of Breast Abnormality using Noninvasive Digital Infrared Thermal Imaging.",
       image: require("./assets/images/somaiya.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
     {
       title: "AGNI",
       subtitle: "Active Member-Action for Good Governance and Networking in India (AGNI)-NGO for welfare of Mumbai city.",
       image: require("./assets/images/agni.jpg"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      footerLink: []
+    },
+    {
+      title: "Member-Beta Gamma Sigma",
+      subtitle: "Ranked top 10% in the program. Beta Gamma Sigma honoree and a lifetime member of elite network of high achievers, business leaders and world changers, for being recognized as one of the most outstanding business students at Rutgers University.",
+      image: require("./assets/images/BGS.jpg"),
+      footerLink: [
+        
+      ]
     }
   ]
 };
